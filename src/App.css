@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a {
+  margin-left: 15px;
+}
+
+.divnavbar {
+  width: 100%;
+  background-color: #fff;
+  height: 50px;
+}
+
+.divnav {
+  display: flex;
+}
+
+.sitename {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.planetlogo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.divider {
+  margin-left: 15px;
+}
