@@ -7,6 +7,7 @@ const Navbar = () => (
     <div className="divnav">
       <img className="planetlogo" src={planet} alt="Planet" width="40" height="40" />
       <span className="sitename">Space Travelers&apos; Hub</span>
+      <span className="divider1">&nbsp;</span>
       <nav className="navbar">
         <Link to="/">Rockets</Link>
         <Link to="/missions">Missions</Link>
