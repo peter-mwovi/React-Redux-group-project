@@ -13,9 +13,30 @@
   color: white;
 }
 
+h1 {
+  padding-top: 20px;
+  margin-left: 58px;
+  color: #fff;
+}
+
+.h1black {
+  color: #000;
+}
+
 a {
   margin-left: 15px;
+  color: dodgerblue;
   text-decoration: none;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: underline;
+  color: blueviolet;
 }
 
 .divnavbar {
@@ -26,28 +47,139 @@ a {
 
 .divnav {
   display: flex;
-  margin: 10px 20px 10px 20px;
   justify-content: space-between;
 }
 
+.navbar {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
 .sitename {
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 .planetlogo {
-  margin-left: 20px;
+  margin-left: 5px;
   margin-right: 20px;
+  margin-top: 6px;
 }
 
 .divider {
   margin-left: 15px;
 }
 
-a:focus {
-  text-decoration: underline;
+.intermediate {
+  width: 40%;
 }
 
-.divider1 {
-  width: 50%;
+.rockets {
+  height: 90vh;
+}
+
+.missions {
+  height: 100%;
+  background-color: #282c34;
+}
+
+.profile {
+  height: 90vh;
+  color: #000;
+}
+
+/* MISSIONS STYLES */
+hr {
+  border: solid 1px #dfdfdf;
+  margin-bottom: 20px;
+}
+
+.separator {
+  padding-bottom: 15px;
+}
+
+.missionsdiv {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 98%;
+  margin: 0;
+  padding: 0;
+  margin-left: 1%;
+  border-collapse: collapse;
+  border: 1px solid #a1a1a1;
+  background-color: #fff;
+}
+
+td {
+  border: 1px solid #a1a1a1;
+}
+
+.gray {
+  background-color: #eee;
+}
+
+.footer {
+  height: 60px;
+  width: 100%;
+}
+
+.first {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.second {
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.third {
+  padding: 8px;
+}
+
+.fourth {
+  padding: 8px;
+}
+
+.button1 {
+  width: 5rem;
+  font-size: 0.5rem;
+  font-weight: 600;
+  padding: 3px 0;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #575757;
+}
+
+.button1:hover,
+.button1:active {
+  color: #fff;
+  background-color: #c2c2c2;
+  border: solid 1px #575757;
+}
+
+.button2 {
+  font-size: 0.6rem;
+  font-weight: 600;
+  width: 4.5rem;
+  padding: 6px 0;
+  border-radius: 4px;
+  color: #575757;
+  background-color: #fff;
+  border: solid 1px #575757;
+}
+
+.button2:hover,
+.button2:active {
+  color: #575757;
+  background-color: #c2c2c2;
+  border: solid 1px #575757;
 }
