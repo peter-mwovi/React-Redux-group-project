@@ -93,7 +93,9 @@ a:focus {
 /* MISSIONS STYLES */
 hr {
   border: solid 1px #dfdfdf;
+  margin-top: 10px;
   margin-bottom: 20px;
+  width: 90%;
 }
 
 .separator {
@@ -120,8 +122,20 @@ td {
   border: 1px solid #a1a1a1;
 }
 
-.gray {
-  background-color: #eee;
+th {
+  border: 1px solid #a1a1a1;
+  background-color: #fff;
+  color: #000;
+}
+
+tr:nth-child(odd) {
+  background-color: #ebebeb;
+  color: #000;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+  color: #000;
 }
 
 .footer {
@@ -151,19 +165,38 @@ td {
 
 .button1 {
   width: 5rem;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   font-weight: 600;
   padding: 3px 0;
   border-radius: 4px;
   color: #fff;
   background-color: #575757;
+  box-shadow: none;
 }
 
-.button1:hover,
-.button1:active {
+.button1:hover {
   color: #fff;
-  background-color: #c2c2c2;
-  border: solid 1px #575757;
+  background-color: #575757;
+  box-shadow: none;
+}
+
+.button1b {
+  width: 5rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 3px 0;
+  border-radius: 4px;
+  color: #fff;
+  background-color: dodgerblue;
+  box-shadow: none;
+  border-color: dodgerblue;
+}
+
+.button1b:hover {
+  color: #fff;
+  background-color: dodgerblue;
+  box-shadow: none;
+  border-color: dodgerblue;
 }
 
 .button2 {
@@ -182,6 +215,24 @@ td {
   color: #575757;
   background-color: #c2c2c2;
   border: solid 1px #575757;
+}
+
+.button2b {
+  font-size: 0.6rem;
+  font-weight: 600;
+  width: 4.5rem;
+  padding: 6px 0;
+  border-radius: 4px;
+  color: #f00;
+  background-color: #fff;
+  border: solid 1px #f00;
+}
+
+.button2b:hover,
+.button2b:active {
+  color: #f00;
+  background-color: #c2c2c2;
+  border: solid 1px #f00;
 }
 
 /* Rockets styles */
