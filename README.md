@@ -93,6 +93,9 @@ The My Profile section displays all reserved rockets and space missions.
 - npm install react-icons --save
 - npm install @react-icons/all-files --save
 - npm install --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+- npm install react-bootstrap
+- npm i -S react-bootstrap
+
 
 
 
