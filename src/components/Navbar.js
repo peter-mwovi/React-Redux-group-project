@@ -1,35 +1,21 @@
-import { NavLink } from 'react-router-dom';
-import styles from '../Styles/Navbar.module.css';
-import Logo from './Logo';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import planet from '../assets/planet_colors.png';
 
-const Navbar = () => {
-  const navlinks = [
-    { path: '/', text: 'Rockets |' },
-    { path: '/missions', text: 'Missions |' },
-    { path: '/profile', text: 'My profile' },
-  ]; return (
-    <nav className={styles.navbar_container}>
-      <div className={styles.navbar}>
-        <div className={styles.navbar__content}>
-          <Logo />
-          <ul className={styles.navbar__list}>
-            {navlinks.map((navlink) => (
-              <li key={navlink.text}>
-                <NavLink
-                  to={navlink.path}
-                  style={({ isActive }) => ({
-                    textDecoration: isActive ? 'underline' : '',
-                  })}
-                >
-                  {navlink.text}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
-};
+const Navbar = () => (
+  <div className="divnavbar">
+    <div className="divnav">
+      <img className="planetlogo" src={planet} alt="Planet" width="40" height="40" />
+      <span className="sitename">Space Travelers&apos; Hub</span>
+      <span className="intermediate">&nbsp;</span>
+      <nav className="navbar">
+        <Link to="/">Rockets</Link>
+        <Link to="/missions">Missions</Link>
+        <span className="divider">|</span>
+        <Link to="/myprofile">My Profile</Link>
+      </nav>
+    </div>
+  </div>
+);
 
 export default Navbar;
