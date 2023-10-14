@@ -22,7 +22,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# BOOKSTORE
+# Space Travelers' Hub APPLICATION
 In this project, Space Travelers' Hub works with real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
 
 Rockets:
