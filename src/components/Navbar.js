@@ -3,8 +3,11 @@ import styles from '../Styles/Navbar.module.css';
 import Logo from './Logo';
 
 const Navbar = () => {
-//  nav object array here
-  return (
+  const navlinks = [
+    { path: '/', text: 'Rockets |' },
+    { path: '/missions', text: 'Missions |' },
+    { path: '/profile', text: 'My profile' },
+  ]; return (
     <nav className={styles.navbar_container}>
       <div className={styles.navbar}>
         <div className={styles.navbar__content}>
