@@ -7,8 +7,7 @@ const Navbar = () => {
     { path: '/', text: 'Rockets |' },
     { path: '/missions', text: 'Missions |' },
     { path: '/profile', text: 'My profile' },
-  ];
-  return (
+  ]; return (
     <nav className={styles.navbar_container}>
       <div className={styles.navbar}>
         <div className={styles.navbar__content}>

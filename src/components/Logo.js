@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from '../Styles/Navbar.module.css';
-import './Logo.css';
+// import './Logo.css';
 
 import spacehub from '../space_hub.png';
 
