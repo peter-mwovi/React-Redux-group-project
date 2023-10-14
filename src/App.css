@@ -77,7 +77,7 @@ a:focus {
 }
 
 .rockets {
-  height: 90vh;
+  height: 100%;
 }
 
 .missions {
@@ -182,4 +182,27 @@ td {
   color: #575757;
   background-color: #c2c2c2;
   border: solid 1px #575757;
+}
+
+/* Rockets styles */
+.rocketstatus {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  color: white;
+  justify-content: space-between;
+}
+
+.rocketname {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.button2r {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5%;
 }
