@@ -1,0 +1,374 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+}
+
+h1 {
+  padding-top: 20px;
+  margin-left: 58px;
+  color: #000;
+}
+
+.h1black {
+  color: #000;
+}
+
+a {
+  margin-left: 15px;
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.divnavbar {
+  width: 100%;
+  background-color: #fff;
+  height: 60px;
+}
+
+.divnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  margin: 10px 55px 10px 40px;
+}
+
+.navbar {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.sitename {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.planetlogo {
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-top: 6px;
+}
+
+.divider {
+  margin-left: 15px;
+}
+
+.intermediate {
+  width: 40%;
+}
+
+.rockets {
+  height: 100%;
+}
+
+.missions {
+  height: 100%;
+  background-color: #fff;
+}
+
+/* MISSIONS STYLES */
+hr {
+  border: solid 1px #dfdfdf;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.missionsdiv hr {
+  width: 100%;
+}
+
+.separator {
+  padding-bottom: 15px;
+}
+
+.missionsdiv {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 98%;
+  margin: 0;
+  padding: 0;
+  margin-left: 1%;
+  border-collapse: collapse;
+  border: 1px solid #a1a1a1;
+  background-color: #fff;
+}
+
+td {
+  border: 1px solid #a1a1a1;
+}
+
+th {
+  border: 1px solid #a1a1a1;
+  background-color: #fff;
+  color: #000;
+}
+
+tr:nth-child(odd) {
+  background-color: #ebebeb;
+  color: #000;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+  color: #000;
+}
+
+.footer {
+  height: 60px;
+  width: 100%;
+}
+
+.first {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.second {
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.third {
+  padding: 8px;
+}
+
+.fourth {
+  padding: 8px;
+}
+
+.button1 {
+  width: 5rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 3px 0;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #575757;
+  box-shadow: none;
+}
+
+.button1:hover {
+  color: #fff;
+  background-color: #575757;
+  box-shadow: none;
+}
+
+.button1b {
+  width: 5rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 3px 0;
+  border-radius: 4px;
+  color: #fff;
+  background-color: dodgerblue;
+  box-shadow: none;
+  border-color: dodgerblue;
+}
+
+.button1b:hover {
+  color: #fff;
+  background-color: dodgerblue;
+  box-shadow: none;
+  border-color: dodgerblue;
+}
+
+.button2 {
+  font-size: 0.6rem;
+  font-weight: 600;
+  width: 4.5rem;
+  padding: 6px 0;
+  border-radius: 4px;
+  color: #575757;
+  background-color: #fff;
+  border: solid 1px #575757;
+}
+
+.button2:hover,
+.button2:active {
+  color: #575757;
+  background-color: #c2c2c2;
+  border: solid 1px #575757;
+}
+
+.button2b {
+  font-size: 0.6rem;
+  font-weight: 600;
+  width: 4.5rem;
+  padding: 6px 0;
+  border-radius: 4px;
+  color: #f00;
+  background-color: #fff;
+  border: solid 1px #f00;
+}
+
+.button2b:hover,
+.button2b:active {
+  color: #f00;
+  background-color: #c2c2c2;
+  border: solid 1px #f00;
+}
+
+/* Rockets styles */
+.rocketstatus {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  color: #000;
+  justify-content: space-between;
+}
+
+.rocketname {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.rocket {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.descrocket {
+  margin-bottom: 10px;
+}
+
+.button3 {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.button3b {
+  background-color: white;
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.status {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  font-size: 12px;
+  padding: 1px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.status1 {
+  display: none;
+}
+
+/* MY PROFILE STYLES */
+.profile {
+  height: 100vh;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.myprofiledivs {
+  width: 43%;
+  margin-left: 4.5%;
+}
+
+.myprofiledivs2 {
+  width: 43%;
+  margin-right: 4.5%;
+}
+
+.divmissions {
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.divrockets {
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.listmissions {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.limission {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.listrockets {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.lirocket {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.boldtext {
+  font-weight: bold;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.normaltext {
+  margin-left: 10px;
+}
+
+.table {
+  width: 95%;
+  margin-left: 20px;
+}
